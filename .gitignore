@@ -1,0 +1,13 @@
+.idea
+devenv/
+data/
+politifact/
+Generated_Data/
+References/
+Model/Doc2Vec/
+Model/FakeNews/
+Model/Serving/
+Model/*.h5
+Model/ModelConf.py
+Services/Twitter_Service/creds.json
+**/__pycache__
