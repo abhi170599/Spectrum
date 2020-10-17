@@ -1,0 +1,26 @@
+version: "3.8"
+
+# backend services
+services:
+    
+    twt:
+        image: abhi170599/tweet_api
+        networks: 
+            - spectrum_backend
+    
+    tfs:
+        image: abhi170599/fn_model_serving
+        networks: 
+            - spectrum_backend        
+
+
+    analysis:
+        image: abhi170599/tweet_analysis
+        ports: 
+            - "5001:5001"
+        networks: 
+            - spectrum_backend    
+
+
+networks: 
+    spectrum_backend:        
