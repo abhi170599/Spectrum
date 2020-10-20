@@ -11,3 +11,4 @@ Model/*.h5
 Model/ModelConf.py
 Services/Twitter_Service/creds.json
 **/__pycache__
+**/node_modules

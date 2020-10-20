@@ -1,0 +1,21 @@
+.Stat{
+       
+    margin-top: 0.5%;
+    
+    width: 46%;
+    height: 32%;
+    background-color: transparent;
+    color: white;
+    
+    
+    float: right;
+    
+
+}
+
+.stats{
+    height:95%;
+    width:100%;
+    align-content: center;
+    text-align: center;
+}

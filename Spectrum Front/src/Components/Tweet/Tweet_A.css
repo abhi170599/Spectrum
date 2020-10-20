@@ -1,0 +1,39 @@
+.Tweet_A{
+    width:90%;
+    height:20%;
+    padding:1%;
+    padding-bottom: 3%;
+    margin:2%;
+    color: rgb(247, 243, 243);
+    border: 1px solid blue;
+    border-radius: 10px;
+    animation-name: fadeIn; 
+    
+}
+
+.header{
+    width:100%;
+    height:30%;
+    padding:1%;
+    font-size: 0.8em;
+    margin-bottom: 1%;
+}
+
+.profile{
+    border-radius: 50%;
+    float:left;
+    margin-right: 2%;
+    height:30px;
+    width: 30px;
+}
+
+.text{
+    font-size: 0.8em;
+    margin-left: 7%;
+    word-wrap: break-word;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 

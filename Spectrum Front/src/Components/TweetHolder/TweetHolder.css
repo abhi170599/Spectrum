@@ -1,0 +1,26 @@
+.TrendHolder{
+
+    width:100%;
+    height:90%;
+    padding:3%;
+    margin:1%;
+    display:inline-block;
+    overflow:scroll;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.TweetHolder{
+
+    width:95%;
+    height:100%;
+    padding:2%;
+    margin:1%;
+    
+    overflow:scroll;
+    
+}

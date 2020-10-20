@@ -1,0 +1,16 @@
+.graph{
+    color: rgb(15, 14, 14);
+    width:90%;
+    height:100%;
+    background-color: #272626f8;
+    border-radius: 20px;
+    margin-left: 3%;
+    animation-duration: 0s;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 

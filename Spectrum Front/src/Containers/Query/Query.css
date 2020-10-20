@@ -1,0 +1,30 @@
+.Query{
+    margin-top:2%;
+    margin-right: 30%;
+    width:50%;
+    float: right;
+    border-radius: 100px;
+    background-color:transparent;
+    height: 4%;
+    display: inline-block;
+    color:white;
+    border: 0.1px solid #c6d3d2;
+       
+    
+    
+
+}
+
+.input{
+    padding: 1%;
+    width: 80%;
+    outline: none;
+    background-color:transparent;
+    border-radius: 100px;
+    margin-left: 1%;
+    height:50%;
+    border: 0px;
+    font-size: 1em;
+    color: rgb(238, 237, 237);
+    
+}

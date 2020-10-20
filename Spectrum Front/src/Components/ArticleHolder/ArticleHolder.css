@@ -1,0 +1,12 @@
+.article_holder{
+    height:90%;
+    width:100%;
+
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
